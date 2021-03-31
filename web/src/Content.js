@@ -3,16 +3,16 @@ import './App.css';
 
 function Content() {
   return (
-    <div className="Content">
-      <header className="Content-header">
-        <h2>Hi, I'm Mary</h2>
-      </header>
-      <div className="Content-body">
-        <p className="Content-body-paragraph-first">An aspiring  Product Manager passionate  about technology, photography, art and how they shape our human experience.</p>
-        <p className="Content-body-paragraph-second">Today, product managers are the glue that keeps the tech and design teams working together to build solutions that work for the rest of an organization. I am capable of managing a cross-function team in an agile environment and also hone soft skills necessary to carry out a product lifecycle.</p>
-        <p className="Content-body-paragraph-last">Based in Lagos, Nigeria.</p>
-      </div>
-    </div>
+          <div className="container contents-body">   
+                         <div data-content-for="xl">
+                             <p style={{ fontSize: "2.94444rem", }} data-mce-style={{ fontSize: "2.94444rem", lineHeight: "3rem"}}>
+                                <span className="font_rut3oe4qq">&nbsp;A Product Manager — </span><span className="font_rut3oe4qq">passionate  about technology, <a href='https://vsco.co/maryfisher/gallery' style={{Color: "red"}}><u>photography,</u></a> art and how they shape our human experience</span>
+                            </p>
+                         </div>
+                         <div class="multi-button">
+                            <button>Case Studies</button>
+                        </div>
+                </div>
   );
 }
 
