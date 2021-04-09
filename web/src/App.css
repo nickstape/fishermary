@@ -58,7 +58,7 @@ color: #000000 !important;
   margin-left: 65px;
   flex: 0 0 auto;
   flex-basis: 66.66667%; 
-  height: 50vh;
+  height: 54vh;
   margin: 70px auto;
   place-items: center;
   padding: calc(var(--space) * 2);
@@ -79,7 +79,33 @@ color: #000000 !important;
 .App-link {
   color: #61dafb;
 }
-
+/* this section is the styling for About*/
+@media only screen and (max-width: 543.9px) {
+  .About-body{
+    margin-left: 10px !important;
+    max-width: 10% !important;
+  }
+  .About-body p {
+    line-height: 1.55556;
+  }
+}
+.About-body{
+  margin: 80px;
+  max-width: 66.66667%;
+  margin-left: 65px;
+  flex: 0 0 auto;
+  flex-basis: 66.66667%; 
+  height: 54vh;
+  margin: 70px auto;
+  place-items: center;
+  padding: calc(var(--space) * 2);
+  max-width: 700px;
+}
+.About-body p{
+  font-family: "Canela", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 /* this section is the styling for footer*/
 .Footer-head{
   padding-top: 10%;
