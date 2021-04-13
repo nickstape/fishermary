@@ -1,7 +1,7 @@
 
-import { withRouter } from 'react-router-dom';
 
-import '../App.css';
+import '../css/App.css';
+import '../css/Responsive.css';
 
 function Navigation() {
   return (

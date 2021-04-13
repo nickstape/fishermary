@@ -1,5 +1,5 @@
-import './App.css';
-
+import './css/App.css';
+import "./css/Responsive.css";
 function Footer() {
   return (
     <div className="Footer-head">

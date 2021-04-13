@@ -1,0 +1,64 @@
+
+/* iPhone X and Xs Max */
+@media only screen 
+    and (min-device-width: 375px) 
+    and (min-device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3)
+    and (orientation: portrait) { 
+    .navbar {
+     margin-left: 5px !important;
+    }
+    .contents-body{
+        max-width: 500px;
+    }
+    .contents-body p{
+        font-size: 1.56664rem;
+    }
+    .About-body{
+        margin-top: 10px;
+        height: 95vh;
+    }
+
+    .content-details{
+        width:50%;
+        left:15%;
+    }
+    .content-details p{
+        font-size: 1.5rem;
+    }
+    .Footer-head{
+     padding-top: 30%;
+     margin-left: 15px;
+    }
+    ul{
+        display: flex;
+    }
+}
+
+/* Samsung */
+@media only screen 
+    and (min-device-width: 360px) 
+    and (min-device-height: 640px) 
+    and (-webkit-device-pixel-ratio: 3)
+    and (orientation: portrait) {
+        .navbar {
+            margin-left: 5px !important;
+           }
+           .contents-body{
+               max-width: 500px;
+           }
+           .contents-body p{
+               font-size: 1.56664rem;
+           }
+           .About-body{
+               margin-top: 10px;
+               height: 155vh;
+           }
+           .Footer-head{
+            margin-top: 10px;   
+            margin-left: 15px;
+           }
+           ul{
+               display: flex;
+           }
+    }
