@@ -1,8 +1,13 @@
-import history from './history';
 
+import { useHistory } from "react-router-dom";
 import './css/App.css';
 
-function Content() {
+   const Content = () =>{
+    let history = useHistory();
+
+    const handleClick = () => {
+      history.push("/CaseStudies");
+    }
   return (
           <div className="contents-body">   
                          <div data-content-for="xl">
@@ -10,8 +15,8 @@ function Content() {
                                 <span>&nbsp;A Product Manager — </span><span>passionate  about technology, <a href='https://vsco.co/maryfisher/gallery' style={{Color: "red"}}><u>photography,</u></a> art and how they shape our human experience and growth, delivering value, finding problems and validating solutions. .</span>
                             </p>
                          </div>
-                         <div class="multi-button">
-                            <button onClick={() => history.push('/CaseStudies')}>Case Studies</button>
+                         <div className="multi-button">
+                            <button onClick={handleClick}>Case Studies</button>
                         </div>
                 </div>
   );

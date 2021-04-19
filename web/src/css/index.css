@@ -8,7 +8,7 @@ body {
   --border-size: 0.125rem;
   --duration: 250ms;
   --ease: cubic-bezier(0.215, 0.61, 0.355, 1);
-  --font-family: monospace;
+  --font-family: Canela;
   --color-primary: white;
   --color-secondary: black;
   --color-tertiary: dodgerblue;

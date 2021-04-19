@@ -38,55 +38,48 @@ color: #000000 !important;
 }
 /*this section is the styling for case studies*/
 .CaseStudies-body{
-  margin: 80px;
   height: 54vh;
-  margin: 70px auto;
+  margin: 50px;
   place-items: center;
   padding: calc(var(--space) * 2);
-  max-width: 700px;
   cursor: pointer;
-  position: relative;
+}
+.case-img:hover{
+  opacity: 0.9;
+}
+.content-image:hover {
+  opacity:0.7;
 }
 .content-details {
-  position: absolute;
-  padding-left: 1em;
   padding-right: 1em;
-  width: 50%;
-  top: 2%;
-  left: 10%;
+  padding-bottom: 10px;
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
   -webkit-transform: translate3d(0,20px,0);
   transform: translate3d(0,20px,0);
 }
 .content-details p {
-  color: #fff;
-  font-size: 1.5rem;
-  margin: 1em 0 0;
-  padding-right: 1em;
+  color: #000;
+  font-size: 28px;
+  margin: 1em;
+  padding: 10px;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(0,20px,0) scale(1.1);
   transform: translate3d(0,20px,0) scale(1.1);
 }
-div.content-details:hover{
+.content-details:hover{
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 } 
-div.content-details:hover p {
-
+/*div.content-details:hover p {
   -webkit-transform: translate3d(0,0,0) scale(1);
   transform: translate3d(0,0,0) scale(1);
-}
+}*/
 
-.content-image:hover {
-  opacity: 0.25;
-}
 
 /* this section is the styling for content*/
 .contents-body{
-  margin: 80px;
-  max-width: 66.66667%;
   margin-left: 65px;
   flex: 0 0 auto;
   flex-basis: 66.66667%; 
@@ -105,7 +98,6 @@ div.content-details:hover p {
 .multi-button {
   display: flex;
   width: 100%;
-  box-shadow: var(--shadow) 4px 4px;
 }
 
 .multi-button button {
