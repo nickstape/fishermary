@@ -11,7 +11,7 @@ function CaseStudies() {
                         </div>
                         <div className="col-md-6 content-details">
                             <p className='tagline overtext'>
-                                <span>&nbsp;Egwu Records is a platform for discovering music of yesterday today. Egwu allows people create playlists about old artistes, write reviews about old albums and exchange, buy and trade records.</span>
+                                <span>&nbsp;Egwu Records is a platform for discovering music of yesterday's today. Egwu allows people exchange, buy and trade records.</span>
                             </p>
                             <div className="multi-button">
                               <a href='https://www.notion.so/Case-Study-a603be3b9e244798854814a37880807a'>

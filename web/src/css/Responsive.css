@@ -8,6 +8,9 @@
     .navbar {
      margin-left: 5px !important;
     }
+    .navbar-expand-lg .navbar-toggler {
+        display: block !important;
+    }
     .contents-body{
         height: 65vh;
         max-width: 500px;
